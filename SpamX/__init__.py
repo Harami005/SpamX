@@ -10,7 +10,7 @@ import time, os, sys
 
 print("""
      ╒══════════════════════╕
-      Starting Your WEEDLEAF 
+      Starting Your MADARA
      ╘══════════════════════╛
 """)
 
@@ -32,8 +32,8 @@ else:
 
 AUTO_REACT = []
 if auto_re:
-   AUTO_REACT = make_list(-1001963474655, auto_re)
+   AUTO_REACT = make_list(-1002025766361, auto_re)
 else:
-   AUTO_REACT.append(-1001963474655)
+   AUTO_REACT.append(-1002025766361)
 
 EMOJI_LIST = ['❤️', '✨', '🔥', '🥰', '💫', '💯', '🌟', '😁', '💥']
