@@ -21,7 +21,7 @@ from RiZoeLX.functions import get_time, delete_reply, Red7_Watch as oops_watch
 async def ping(_, e: Message):       
       start = datetime.datetime.now()
       uptime = await get_time((time.time() - start_time))
-      pong_msg = await e.reply("**loda !!**")
+      pong_msg = await e.reply("**MADARA KA LAND LO  !!**")
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
       await pong_msg.edit_text(f"⌾ {ping_msg} ⌾ \n\n ༝ ᴘɪɴɢ: `{ms}` ᴍs \n ༝ ᴜᴘᴛɪᴍᴇ: `{uptime}` \n ༝ ᴠᴇʀsɪᴏɴ: `{__version__}`")
@@ -31,9 +31,9 @@ async def ping_me(_, e: Message):
       start = datetime.datetime.now()
       uptime = await get_time((time.time() - start_time))
       try:
-        pong_msg = await e.edit_text("**loda !!**")
+        pong_msg = await e.edit_text("**MADARA KA LAND LO !!**")
       except:
-        pong_msg = await e.reply("**loda !!**")
+        pong_msg = await e.reply("**MADARA KA LAND LO !!**")
         await e.delete()    
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
@@ -126,7 +126,7 @@ async def stats(SpamX: Client, message: Message):
     stats += f"Admin in: `{admingc}` chats \n\n"
     stats += "------------- » «» « ------------- \n"
     stats += f"Time Taken `{ms}secs` \n"
-    stats += "© @sahenshah01"
+    stats += "© @MADARA1188"
     await delete_reply(message, tx, stats) 
 
 @Client.on_chat_member_updated(filters.group, group=69)
@@ -144,13 +144,13 @@ async def welcome_watcher(SpamX: Client, member: ChatMemberUpdated):
    user = member.new_chat_member.user if member.new_chat_member else member.from_user    
    if group_welcome:
       if user.id == mai.id:
-         await SpamX.send_message(message.chat.id, "WEEDLEAFX Here. Powered by @sahenshah01!")
+         await SpamX.send_message(message.chat.id, "MADARA Here. Powered by MADARA1188!")
          return
       if user.id == Owner:
          await SpamX.send_message(message.chat.id, f"{user.mention} Welcome to {message.chat.title} my King 👑")
          return
       if user.id in Devs:
-         await SpamX.send_message(message.chat.id, f"{user.mention} WEEDLEAFX's Devs joined👾")
+         await SpamX.send_message(message.chat.id, f"{user.mention} MADARA's Devs joined👾")
          return
       if user.id in Sudos:
          await SpamX.send_message(message.chat.id, f"{user.mention} Whoa! The Prince just joined 🫠!")
@@ -208,7 +208,7 @@ async def os_system(SpamX: Client, message: Message):
        if check_var in Variables:
           var = check_var
        else:
-          await message.reply_text(f"Wrong variable! All Variables given below 👇\n\n {Variables_text} \n\n © @RiZoeLX")
+          await message.reply_text(f"Wrong variable! All Variables given below 👇\n\n {Variables_text} \n\n © @MADARA1188")
           return
        value = str(txt[1])
        try:
@@ -218,6 +218,6 @@ async def os_system(SpamX: Client, message: Message):
          os.execl(sys.executable, *args)
          quit()
        except Exception as error:
-         await message.reply_text(f"Error: {error} \n\n Report in @billaganghh")
+         await message.reply_text(f"Error: {error} \n\n Report in @MADARA_WORLD")
     else:
        await message.reply_text(f"**Wrong Usage** \n Syntax: {handler}setvar (var name) (value) \n\n Type `{handler}getvars` To get all Vars name!")
