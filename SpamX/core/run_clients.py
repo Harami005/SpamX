@@ -134,13 +134,13 @@ def Run_SpamX():
          start_spamX(RiZoeL20, "session")
     
     print(f"SpamX - [INFO]: Python Version - {platform.python_version()}")
-    print(f"SpamX - [INFO]: WEEDLEAFX Version - {__version__}")
-    print(f"SpamX - [INFO]: pyWEEDLEAF Version - {rizoelx_vr}")
+    print(f"SpamX - [INFO]: MADARA Version - {__version__}")
+    print(f"SpamX - [INFO]: pyMADARA Version - {rizoelx_vr}")
     print(f"SpamX - [INFO]: Pyrogram Version - {pyro_vr}")
     print(""" \n\n
      ╒═══════════════════════════╕
       Your SpamX has been Deployed!!
-      Visit @Sahenshah01 for updates!
+      Visit @MADARA1188 for updates!
      ╘═══════════════════════════╛
     """)
     idle()
