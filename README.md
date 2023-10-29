@@ -1,6 +1,6 @@
-<p align="center"><a href="https://t.me/beasterbro"><img src="https://te.legra.ph/file/50131d5f2ff665829effe.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/MADARA1188"><img src="https://telegra.ph//file/08cfec07a816983d60291.jpg" width="400"></a></p>
 <h6 align="center">
-  <b>• SᴘᴀᴍX Bʏ ™°‌ ⏤͟͞ ≛⃝ᶦϻͣ 🇼𝔼𝔼𝔻𝕃𝔼𝔸𝔽 •</b>
+  <b>• SᴘᴀᴍX Bʏ ™°‌ 🇲𝘼𝘿𝘼𝙍𝘼─⃛͢⋆ ⁪⁬⁮⁮⁮ •</b>
 </h6>
 
 ----
@@ -36,7 +36,7 @@
 
 <h3 align="center">Deployment</h3>
 
-  - Heroku: [Click Here](https://github.com/gamingbuddyyy/SpamX/blob/main/resources/heroku.md)
+  - Heroku: [Click Here](https://github.com/MADARA1188/SpamX/blob/main/resources/heroku.md)
   - Mogenius: [Click Here](https://youtu.be/6XIjTbumJYY)
   - Google Colab: [Click Here](https://youtu.be/sYgy4_8i7c8)
   - VPS/Local hosting: [Click here](https://github.com/RiZoeLX/SpamX/blob/main/resources/local.md)
