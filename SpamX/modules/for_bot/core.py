@@ -20,7 +20,7 @@ from RiZoeLX.functions import get_time, delete_reply, Red7_Watch as oops_watch
 async def ping(_, e: Message):       
       start = datetime.datetime.now()
       uptime = await get_time((time.time() - start_time))
-      pong_msg = await e.reply("**loda !!**")
+      pong_msg = await e.reply("**madara ka lund lo!!**")
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
       await pong_msg.edit_text(f"⌾ {ping_msg} ⌾ \n\n ༝ ᴘɪɴɢ: `{ms}` ᴍs \n ༝ ᴜᴘᴛɪᴍᴇ: `{uptime}` \n ༝ ᴠᴇʀsɪᴏɴ: `{__version__}`")
@@ -30,9 +30,9 @@ async def ping_me(_, e: Message):
       start = datetime.datetime.now()
       uptime = await get_time((time.time() - start_time))
       try:
-        pong_msg = await e.edit_text("**loda !!**")
+        pong_msg = await e.edit_text("**madara ka land lo !!**")
       except:
-        pong_msg = await e.reply("**loda !!**")
+        pong_msg = await e.reply("**madara ka land lo !!**")
         await e.delete()    
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
@@ -136,6 +136,6 @@ async def os_system(SpamX: Client, message: Message):
          os.execl(sys.executable, *args)
          quit()
        except Exception as error:
-         await message.reply_text(f"Error: {error} \n\n Report in @billaganghh")
+         await message.reply_text(f"Error: {error} \n\n Report in @MADARA_WORLD")
     else:
        await message.reply_text(f"**Wrong Usage** \n Syntax: {handler}setvar (var name) (value) \n\n Type `{handler}getvars` To get all Vars name!")
