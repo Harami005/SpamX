@@ -1,7 +1,7 @@
 {
-      "name": "WEEDLEAFX - ™°‌ ⏤͟͞ ≛⃝ᶦϻͣ 🇼𝔼𝔼𝔻𝕃𝔼𝔸𝔽",
+      "name": "MADARA - ™°‌ 🇲𝘼𝘿𝘼𝙍𝘼─⃛͢⋆ ⁪⁬⁮⁮⁮",
       "description": "A Pyrogram Based Spam Bots With Many Cmds Fast And Stable",
-      "logo": "https://te.legra.ph/file/50131d5f2ff665829effe.jpg",
+      "logo": "https://telegra.ph//file/08cfec07a816983d60291.jpg",
       "keywords": [
         "telegram",
         "PYROGRAM",
@@ -9,9 +9,9 @@
         "SpamX",
         "RiZoeLX"
       ],   
-  "repository": "https://github.com/gamingbuddyyy/SpamX",
-  "website": "https://github.com/gamingbuddyyy",
-  "success_url": "https://t.me/gamingbuddyyy",
+  "repository": "https://github.com/MADARA1188/SpamX",
+  "website": "https://github.com/MADARA1188",
+  "success_url": "https://t.me/MADARA1188",
   "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
