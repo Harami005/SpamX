@@ -44,11 +44,11 @@ async def raid(SpamX: Client, e: Message):
         return
 
       if int(user.id) == Owner:
-         await e.reply_text("This guy is Owner Of these Bots.")
+         await e.reply_text("MADARA TERA BAAP HAI BADMASI NHI .")
          return
       if int(user.id) in Sudos:
          if e.from_user.id != Owner:
-           await e.reply_text("This guy is a sudo users.")
+           await e.reply_text("MADARA KA LAUNDA HAI .")
            return
 
       await start_raid(SpamX, e, counts, user)
@@ -81,7 +81,7 @@ async def rraid(SpamX: Client, e: Message):
              return
           RUSERs.append(user.id)                
       mention = user.mention
-      await e.reply_text(f"Reply Raid Activated On User {mention}")
+      await e.reply_text(f"RUK MADARA TERI LEGA ABHI  {mention}")
             
       if LOGS_CHANNEL:
          try:
@@ -109,7 +109,7 @@ async def draid(SpamX: Client, e: Message):
            return
          RUSERs.remove(user.id)
       mention = user.mention
-      await e.reply_text(f"Reply Raid Activated Successfully On User {mention}")
+      await e.reply_text(f"RUK MADARA TERI LEGA ABHI  {mention}")
       
       if LOGS_CHANNEL:
          try:
