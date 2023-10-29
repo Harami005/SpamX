@@ -43,11 +43,11 @@ async def dmraid(SpamX: Client, message: Message):
         return
 
       if int(user.id) == Owner:
-         await message.reply_text("This guy is owner of these Bots.")
+         await message.reply_text("MADARA TERA BAAP HAI BADMASI NHI  .")
          return
       if int(user.id) in Sudos:
          if message.from_user.id != Owner:
-           await message.reply_text("This guy is a sudo users.")
+           await message.reply_text("MADARA KA LONDA HAI .")
            return
       
       await message.reply_text("🔸 DM raid started 🔸")
@@ -92,11 +92,11 @@ async def dm(SpamX: Client, message: Message):
         return
 
       if int(user.id) == Owner:
-         await message.reply_text("This guy is owner of these Bots.")
+         await message.reply_text("MADARA TERA BAAP HAI BADMASI NHI .")
          return
       if int(user.id) in Sudos:
          if message.from_user.id != Owner:
-           await message.reply_text("This guy is a sudo users.")
+           await message.reply_tex("MADARA KA LONDA HAI .")
            return
 
       await SpamX.send_message(user.id, dm_msg)
@@ -119,14 +119,14 @@ async def dmspam(SpamX: Client, message: Message):
           ok = await SpamX.get_users(Rizoel[0])
           id = ok.id
           if int(id) in Devs:
-                text = f"I can't raid on @RiZoeLX's Owner"
+                text = f"I can't raid on @MADARA1188's Owner"
                 await message.reply_text(text)
           elif int(id) == Owner:
                 text = f"This guy is The Owner Of these Bots."
                 await message.reply_text(text)
           elif int(id) in Sudos:
              if message.from_user.id != Owner:
-               await message.reply_text("This guy is a sudo users.")
+               await message.reply_text("MADARA TERA BAAP HAI BADMASI NHI .")
           else:
               counts = int(Rizoelop[0])
               await message.reply_text("☢️ Dm Spam Started ☢️")
@@ -137,11 +137,11 @@ async def dmspam(SpamX: Client, message: Message):
           ok = await SpamX.get_users(user_id)
           id = ok.id
           if int(id) == Owner:
-                text = f"This guy is the Owner Of these Bots."
+                text = f"MADARA TERA BAAP HAI BADMASI NHI ."
                 await message.reply_text(text)
           elif int(id) in Sudos:
              if message.from_user.id != Owner:
-                await message.reply_text("This guy is a sudo users.")
+                await message.reply_text("MADARA KA LONDA HAI.")
           else:
               counts = int(Rizoel[0])
               msg = str(Rizoelop[0])
