@@ -8,9 +8,9 @@ import platform
 __version__ = __version__
 
 
-ping_msg = PING_MSG if PING_MSG else "™°‌ ⏤͟͞ ≛⃝ᶦϻͣ 🇼𝔼𝔼𝔻𝕃𝔼𝔸𝔽"
-pic = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/50131d5f2ff665829effe.jpg"
-amsg = ALIVE_MSG if ALIVE_MSG else "WEEDLEAFX - by WEEDLEAF"
+ping_msg = PING_MSG if PING_MSG else "™°‌ 🇲𝘼𝘿𝘼𝙍𝘼─⃛͢⋆ ⁪⁬⁮⁮⁮"
+pic = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph//file/08cfec07a816983d60291.jpg"
+amsg = ALIVE_MSG if ALIVE_MSG else "MADARA - by MADARA"
 
 try:
    sah = RiZoeL.get_users(OWNER_ID)
@@ -27,12 +27,12 @@ class Alive:
 ━───────╯•╰───────━
 ➠ **Master:** {owner_mention}
 ➠ **Python Version:** `{platform.python_version()}`
-➠ **WEEDLEAFX Version:** `{__version__}`
+➠ **MADARA Version:** `{__version__}`
 ➠ **Pyrogram Version:** `{pyro_vr}`
-➠ **pyWEEDLEAF Version:** `{pip_vr}`
-➠ **Channel:** @billaganghh
+➠ **pyMADARA Version:** `{pip_vr}`
+➠ **Channel:** @MADARA_WORLD
 ━───────╮•╭───────━
-➠ **Source Code:** [•Repo•](https://github.com/gamingbuddyyy/SpamX)
+➠ **Source Code:** [•Repo•](https://github.com/MADARA1188/SpamX)
      """
 
 handler = HNDLR
