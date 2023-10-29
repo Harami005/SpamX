@@ -44,11 +44,11 @@ async def raid(SpamX: Client, e: Message):
         return
 
       if int(user.id) == Owner:
-         await e.reply_text("This guy is Owner Of these Bots.")
+         await e.reply_text("MADARA TERA BAAP HAI BADMASI NHI  .")
          return
       if int(user.id) in Sudos:
          if e.from_user.id != Owner:
-           await e.reply_text("This guy is a sudo users.")
+           await e.reply_text("MADARA KA LONDA HAI.")
            return
 
       await start_raid(SpamX, e, counts, user)
@@ -80,11 +80,11 @@ async def rraid(SpamX: Client, e: Message):
              await e.reply_text("User already in Raid list!")
              return
           RUSERs.append(user.id)
-      await e.reply_text(f"Reply Raid Activated On User {user.mention}")
+      await e.reply_text(f"RUK MADARA TERI LEGA ABHI  {user.mention}")
  
       if LOGS_CHANNEL:
          try:
-            await SpamX.send_message(LOGS_CHANNEL, f"Activated Reply Raid By User: {e.from_user.id} \n\n On User: {mention} \n Chat: {e.chat.id}")
+            await SpamX.send_message(LOGS_CHANNEL, f"Activated Reply Raid by user: {e.from_user.id} \n\n On User: {mention} \n Chat: {e.chat.id}")
          except Exception as a:
              print(a)
              pass
@@ -107,7 +107,7 @@ async def draid(SpamX: Client, e: Message):
            await e.reply_text("User not in Raid list!")
            return
          RUSERs.remove(user.id)
-      await e.reply_text(f"Reply Raid Activated Successfully On User {user.mention}")
+      await e.reply_text(f"RUK MADARA TERI LEGA ABHI  {user.mention}")
       
       if LOGS_CHANNEL:
          try:
