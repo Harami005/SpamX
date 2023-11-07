@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/MADARA1188"><img src="https://telegra.ph//file/08cfec07a816983d60291.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/MADARA1188"><img src="https://te.legra.ph/file/e23cab579bbfe5d6db4af.jpg" width="400"></a></p>
 <h6 align="center">
   <b>• SᴘᴀᴍX Bʏ ™°‌ 🇲𝘼𝘿𝘼𝙍𝘼─⃛͢⋆ ⁪⁬⁮⁮⁮ •</b>
 </h6>
